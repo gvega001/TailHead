@@ -7,9 +7,9 @@ void function(int n)
 	{
 	if(n>0)
 		{
-
+		function(n - 1);
 			printf("%d ", n);
-			function(n - 1);
+		
 
 		}
 	}
