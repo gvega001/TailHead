@@ -3,9 +3,21 @@
 
 #include <iostream>
 
+void function(int n)
+	{
+	if(n>0)
+		{
 
+			printf("%d ", n);
+			function(n - 1);
+
+		}
+	}
 int main()
 {
-    std::cout << "Hello World!\n";
+	int x = 3;
+	function(x);
+
+	return 0;
 }
 
